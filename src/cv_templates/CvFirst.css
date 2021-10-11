@@ -1,0 +1,78 @@
+.cv_1_container {
+  display: flex;
+
+  min-width: 100%;
+  min-height: 100vh;
+}
+.cv_1_header {
+  display: flex;
+}
+.cv_1_image {
+  object-fit: cover;
+  width: 10rem;
+  height: 10rem;
+  max-width: 10rem;
+  max-height: 10rem;
+}
+.cv_1_title_container {
+  margin: auto;
+}
+.to_pdf {
+  background-color: white;
+  width: 500px;
+  height: 707px;
+  min-width: 500px;
+  min-height: 707px;
+  margin: auto;
+}
+.pdf_download {
+  font-size: 1.5rem;
+  max-width: 20rem;
+  margin: 0;
+}
+.cv_1_title {
+  font-size: 2rem;
+}
+.cv_1_job {
+  font-size: 1.5rem;
+  color: rgb(54, 54, 54);
+  font-weight: 300;
+}
+.cv_1_body {
+  display: flex;
+}
+.cv_1_sidebar {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 9rem;
+
+  max-width: 9rem;
+  height: 100%;
+}
+.cv_1_skills {
+  margin: auto;
+}
+.cv_1_section_title {
+  text-align: center;
+}
+.cv_1_list_item {
+  font-weight: 300;
+}
+.cv_1_main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.black {
+  color: rgb(31, 31, 31);
+}
+@media only screen and (max-width: 850px) {
+  .cv_1_container {
+    flex-direction: column;
+  }
+  .pdf_download {
+    margin: auto;
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.job_container {
+  display: flex;
+  height: 100vh;
+}
+.job_container_2 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.jobs_buttons {
+  display: flex;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 425px) {
+  .job_container_2 {
+    width: 80%;
+  }
+  .jobs_buttons {
+    flex-direction: column-reverse;
+  }
+  .mt {
+    margin-top: 1rem;
+  }
+}

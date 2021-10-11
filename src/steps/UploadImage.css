@@ -1,0 +1,60 @@
+.upload_image_container {
+  display: flex;
+}
+
+.image_preview {
+  object-fit: cover;
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+  border-radius: 1rem;
+}
+.upload_button {
+  text-align: center;
+  width: 50%;
+  font-size: 3rem;
+  margin: auto;
+  margin-bottom: 0;
+  font-size: 2rem;
+  background-color: transparent;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  border: 2px solid;
+  border-radius: 1rem;
+  border-color: rgba(185, 23, 215, 1);
+  cursor: pointer;
+  transition: 300ms;
+}
+.upload_button:hover {
+  animation-name: bg_btn_animation;
+  animation-duration: 300ms;
+  background-color: rgba(185, 23, 215, 1);
+}
+.next_button {
+  margin: auto;
+  margin-top: 0;
+  background: rgb(185, 23, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(185, 23, 215, 1) 41%,
+    rgba(209, 40, 166, 1) 100%
+  );
+  border: 0;
+  border-radius: 1rem;
+  width: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  transition: 300ms;
+  cursor: pointer;
+}
+.next_button:hover {
+  transform: scale(1.03);
+}
+
+@media only screen and (max-width: 700px) {
+  .upload_image_container {
+    flex-direction: column;
+  }
+}

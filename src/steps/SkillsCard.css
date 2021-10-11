@@ -1,0 +1,32 @@
+.main_skill_card {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 4rem;
+  max-height: 4rem;
+  overflow-y: scroll;
+  border-radius: 1rem;
+  background-color: #2b2f38;
+  margin-top: 1rem;
+  border: 2px solid #262a31;
+  display: flex;
+}
+.skill_card_text {
+  font-size: 1.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+}
+.skill_card_remove {
+  padding-left: 1rem;
+  min-width: 2rem;
+  min-height: 2rem;
+  height: 2rem;
+  width: 2rem;
+  margin: auto;
+  margin-right: 1rem;
+  transition: 200ms;
+}
+.skill_card_remove:hover {
+  transform: scale(1.1);
+}

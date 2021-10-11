@@ -1,0 +1,66 @@
+.informations_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.informations_title {
+  max-height: 4rem;
+  margin: auto;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+}
+.informations_labels {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.informations_container_2 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  width: 50%;
+}
+.informations_input {
+  background-color: #171717;
+  border-radius: 1rem;
+  border: 3px solid #1e1e1e;
+  width: 100%;
+  font-size: 1.5rem;
+  height: 2.7rem;
+  text-indent: 0.5rem;
+  margin-top: 0;
+}
+.informations_input:focus {
+  border: 3px solid rgba(185, 23, 215, 1);
+}
+.required_field {
+  border: 3px solid red;
+}
+.doubled_flex {
+  display: flex;
+}
+@media only screen and (max-width: 700px) {
+  .doubled_flex {
+    flex-direction: column;
+  }
+  .informations_title {
+    margin: auto;
+
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .informations_title {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .informations_container_2 {
+    width: 80%;
+  }
+}
